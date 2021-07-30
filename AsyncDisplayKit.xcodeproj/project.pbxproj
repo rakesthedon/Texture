@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 47;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -178,6 +178,10 @@
 		83A7D95B1D44547700BF333E /* ASWeakMap.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83A7D9591D44542100BF333E /* ASWeakMap.mm */; };
 		83A7D95C1D44548100BF333E /* ASWeakMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A7D9581D44542100BF333E /* ASWeakMap.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		83A7D95E1D446A6E00BF333E /* ASWeakMapTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83A7D95D1D446A6E00BF333E /* ASWeakMapTests.mm */; };
+		8A52A91226B4777E001DECFF /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A52A90E26B4777E001DECFF /* PINOperation.xcframework */; };
+		8A52A91326B4777E001DECFF /* PINRemoteImage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A52A90F26B4777E001DECFF /* PINRemoteImage.xcframework */; };
+		8A52A91426B4777E001DECFF /* libwebp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A52A91026B4777E001DECFF /* libwebp.xcframework */; };
+		8A52A91526B4777E001DECFF /* PINCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A52A91126B4777E001DECFF /* PINCache.xcframework */; };
 		8BBBAB8C1CEBAF1700107FC6 /* ASDefaultPlaybackButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0768B11CE752EC002E1453 /* ASDefaultPlaybackButton.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8BBBAB8D1CEBAF1E00107FC6 /* ASDefaultPlaybackButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B0768B21CE752EC002E1453 /* ASDefaultPlaybackButton.mm */; };
 		8BDA5FC71CDBDF91007D13B2 /* ASVideoPlayerNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDA5FC31CDBDDE1007D13B2 /* ASVideoPlayerNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -757,6 +761,10 @@
 		83A7D9581D44542100BF333E /* ASWeakMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASWeakMap.h; sourceTree = "<group>"; };
 		83A7D9591D44542100BF333E /* ASWeakMap.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASWeakMap.mm; sourceTree = "<group>"; };
 		83A7D95D1D446A6E00BF333E /* ASWeakMapTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASWeakMapTests.mm; sourceTree = "<group>"; };
+		8A52A90E26B4777E001DECFF /* PINOperation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PINOperation.xcframework; path = Carthage/Build/PINOperation.xcframework; sourceTree = "<group>"; };
+		8A52A90F26B4777E001DECFF /* PINRemoteImage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PINRemoteImage.xcframework; path = Carthage/Build/PINRemoteImage.xcframework; sourceTree = "<group>"; };
+		8A52A91026B4777E001DECFF /* libwebp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libwebp.xcframework; path = Carthage/Build/libwebp.xcframework; sourceTree = "<group>"; };
+		8A52A91126B4777E001DECFF /* PINCache.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PINCache.xcframework; path = Carthage/Build/PINCache.xcframework; sourceTree = "<group>"; };
 		8B0768B11CE752EC002E1453 /* ASDefaultPlaybackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDefaultPlaybackButton.h; sourceTree = "<group>"; };
 		8B0768B21CE752EC002E1453 /* ASDefaultPlaybackButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASDefaultPlaybackButton.mm; sourceTree = "<group>"; };
 		8BDA5FC31CDBDDE1007D13B2 /* ASVideoPlayerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASVideoPlayerNode.h; sourceTree = "<group>"; };
@@ -1092,6 +1100,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A52A91226B4777E001DECFF /* PINOperation.xcframework in Frameworks */,
+				8A52A91326B4777E001DECFF /* PINRemoteImage.xcframework in Frameworks */,
+				8A52A91426B4777E001DECFF /* libwebp.xcframework in Frameworks */,
+				8A52A91526B4777E001DECFF /* PINCache.xcframework in Frameworks */,
 				CC36C19C218B847400232F23 /* CoreMedia.framework in Frameworks */,
 				CC36C19A218B846F00232F23 /* CoreLocation.framework in Frameworks */,
 				CC36C198218B846300232F23 /* QuartzCore.framework in Frameworks */,
@@ -1158,6 +1170,10 @@
 		058D09AE195D04C000B7D73C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A52A91026B4777E001DECFF /* libwebp.xcframework */,
+				8A52A91126B4777E001DECFF /* PINCache.xcframework */,
+				8A52A90E26B4777E001DECFF /* PINOperation.xcframework */,
+				8A52A90F26B4777E001DECFF /* PINRemoteImage.xcframework */,
 				CD0F261B25CA03BB00735A79 /* WebKit.framework */,
 				CC36C19B218B847400232F23 /* CoreMedia.framework */,
 				CC36C199218B846F00232F23 /* CoreLocation.framework */,
@@ -2612,7 +2628,10 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/TestHost/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2629,7 +2648,10 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				INFOPLIST_FILE = Tests/TestHost/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2809,7 +2831,11 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = Source/AsyncDisplayKit.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_CFLAGS = (
@@ -2841,7 +2867,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = Source/AsyncDisplayKit.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = (
@@ -2938,7 +2968,10 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				INFOPLIST_FILE = Tests/TestHost/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2963,7 +2996,11 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "PROFILE=1";
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = Source/AsyncDisplayKit.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = (
